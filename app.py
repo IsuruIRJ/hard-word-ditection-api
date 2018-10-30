@@ -11,7 +11,7 @@ app.config.from_object('config')
 
 api = Api(app)
 
-# api.add_resource(Model, '/test_app/<string:number>')
+api.add_resource(Model, '/test_app/<string:number>')
 
 # api.add_resource(Train, '/train')
 #
