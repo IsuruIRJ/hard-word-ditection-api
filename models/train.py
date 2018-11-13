@@ -18,6 +18,8 @@ class Train(Resource):
         # 2 classes of training data
         training_data = []
         training_data.append({"class":"easy", "sentence":"this"})
+        training_data.append({"class":"easy", "sentence":"is"})
+        
 
         for val in data:
             training_data.append({"class":"hard", "sentence":val})
